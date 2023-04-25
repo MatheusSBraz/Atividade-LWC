@@ -1,0 +1,21 @@
+import { LightningElement } from "lwc";
+
+export default class App extends LightningElement {
+ Empresa = "Mamaco corp LTDA" ;
+ CNPJ = "51.744.417/0001-08";
+ Endereco = "Rua das bananeiras 250";
+
+ Produto = "Doce de banana";
+ Descricao = "Doce de banana da melhor qualidade do mundo";
+ preco = "15,00"
+
+ Oferta1 = "10 caixar por 100 a vista";
+ Oferta2 = "Comprando 5 unidades sai a 12,00 nosso doce de banana";
+
+visible = true;
+ MeuBotao(){
+   this.visible=!this.visible;
+ }
+
+
+}
