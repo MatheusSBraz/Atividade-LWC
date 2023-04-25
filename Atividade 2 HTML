@@ -1,0 +1,6 @@
+<template>
+	<div class="slds-m-arround_medium" onclick={Monstraopok}>
+		<h1 class="slds-text-heading_large">QUEM É ESSE POKÉMON?</h1>
+		<img src={currentImage} alt="Pokemon" />
+	</div>
+</template>
