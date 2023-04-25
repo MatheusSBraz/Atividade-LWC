@@ -1,0 +1,70 @@
+<template>
+
+
+	<lightning-card>
+		<div class="slds-m-arround_medium">
+			<h1 class="slds-text-heading_large">
+				Mamaco Corp
+			</h1>
+		</div>
+
+		</br>
+
+		<font face="Arial" color="656565" size="3"><i>Informações da Empresa</i></font><br/>
+
+
+
+		<p>Empresa: {Empresa} </p>
+		<p>CNPJ: {CNPJ} </p>
+		<p>Endereço: {Endereco} </p>
+
+		</br>
+
+
+		<div class="slds-m-arround_medium" if:true={visible}>
+			<h1 class="slds-text-heading_large">
+				Mamaco Corp
+			</h1>
+
+			</br>
+
+			<font face="Arial" color="656565" size="3"><i>Produtos exclusivos</i></font><br/>
+
+
+
+			<p>Produto: {Produto} </p>
+			<p>Descrição: {Descricao} </p>
+			<p>Preço: {preco} </p>
+
+			</br>
+		</div>
+
+		<div class="slds-m-arround_medium" if:true={visible}>
+			<h1 class="slds-text-heading_large">
+				Mamaco Corp
+			</h1>
+
+			</br>
+
+			<font face="Arial" color="656565" size="3"><i>Promoções Mamaco</i></font><br/>
+
+
+
+			<p>Promoção</p>
+			<p>Oferta 1: {Oferta1} </p>
+			<p>Oferta 2: {Oferta2} </p>
+
+			</br>
+		</div>
+		<lightning-button variant="brand" label="Aperta" title="Primary action" onclick={MeuBotao}
+			class="slds-m-left_x-small"></lightning-button>
+
+
+
+
+
+
+
+
+	</lightning-card>
+</template>
